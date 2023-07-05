@@ -1,0 +1,112 @@
+body{
+	margin: 0px;
+}
+
+
+
+
+
+.header{
+	background-color: #4a2c2a;
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	z-index: 200;
+
+
+}
+.logo{
+	height: 100%;
+	text-align: center;
+	float: left;
+	margin: 10px;
+
+
+}
+.coffeetext{
+
+	display: block;
+	color: whitesmoke;
+	font-family:"Helvetica Neue";
+
+
+}
+.navi{
+	float: right;
+	height: 100%;
+
+}
+.navi a{
+	font-size: 15px;
+	font-weight: 700;
+	
+	padding-right: 20px;
+	padding-top: 12%;
+	color: whitesmoke;
+	display: inline-block;
+}
+
+.content{
+	position: absolute;
+	top: 46px;
+	width: 100%;
+}
+
+.image-content{
+	background-image: url("background-image.png");
+	width: 100%;
+	height: 700px;
+	text-align: center;
+
+
+}
+.quote{
+	color:  #FBE7A1;
+	position: relative;
+	top: 10%;
+	
+	
+	font-size: 70px;
+}
+.card-list{
+	width: 100%;
+}
+#product{
+	text-align: center;
+}
+.card{
+	width: 22%;
+	padding: 1.5%;
+	float: left;
+	height: 300px;
+	text-align: center;
+}
+.card img{
+	width: 100%;
+}
+
+.order-section{
+	width: 100%;
+}
+#order{
+	text-align: center;
+}
+
+.form{
+	width: 200px;
+	margin: 0 auto;
+}
+.form input{
+	margin: 10px;
+	padding: 10px;
+}
+.footer{
+	background-color: gray;
+	z-index: 500;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	
+}
